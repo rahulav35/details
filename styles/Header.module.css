@@ -1,0 +1,22 @@
+.headerdiv {
+    align-items: center;
+    justify-content:flex-end;
+    display: flex;
+    outline: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(145, 136, 114);
+    height: 50px;
+    width: 90%;
+    min-height: 50px;
+    margin-top: 10px;
+}
+
+.headername {
+    padding-left: 40px;
+    box-sizing: border-box;
+    padding-right: 40px;
+    font-size: small;
+    color: white;
+    
+
+}

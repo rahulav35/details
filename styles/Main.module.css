@@ -1,0 +1,68 @@
+.originaldiv{
+    background-color: black;
+    outline: 20px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+.maindiv{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    background-color: black;
+    overflow-y: scroll;
+    padding-left: 200px;
+    padding-top: 30px;
+}
+
+.box{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    outline: 1px solid red;
+    height: 200px;
+    width: 300px;
+    color: yellow;
+    margin-bottom: 20px;border-radius: 30px;
+}
+
+.id{
+    font-size: small;
+    padding-top: 20px;
+    
+}
+
+.name{
+    font-size: x-large;
+    
+}
+.email{
+    font-size: medium;
+    padding-bottom: 20px;
+}
+
+.taskheader{
+    outline: 1px solid black;
+    height: 70px;
+    width: 90vw;border-radius: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-style: italic;
+    background-color: gray;
+    margin-top: 20px;
+}
