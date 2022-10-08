@@ -16,9 +16,10 @@ function Main() {
         <h1 className={newpage.taskdetails}> DETAILS</h1>
       </header>
       <div className={newpage.maindiv}>
-        {array.map((singledata) => {
+        {array.map((singledata, i) => {
           return (
             <Task
+              key={i}
               name={singledata.name}
               id={singledata.id}
               email={singledata.email}
